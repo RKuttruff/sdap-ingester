@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Unreleased
 ### Added
+- SDAP-534: Added proper support for data variables in NetCDF groups. Can handle multiple data variables across different groups. Coordinates are still required to be in root.
+### Changed
+### Deprecated
+### Removed
+### Fixed
+- Fixed issue with Collection Manager Docker build failing due to setuptools issue
+### Security
+
+## [1.4.0] - 2024-11-04
+### Added
 - SDAP-469: Additions to support height/depth dimensions on input
 ### Changed
 ### Deprecated
